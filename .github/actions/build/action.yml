@@ -28,12 +28,6 @@ runs:
         build-scan-terms-of-use-url: "https://gradle.com/terms-of-service"
         build-scan-terms-of-use-agree: "yes"
 
-    - name: Processs secondWatcher 
-      uses: cdsap/build-process-watcher@fix/composite-run-id-file
-      with:
-         remote_monitoring: false
-         debug: true
-
     - name: Check build-logic
       run: ./gradlew :build-logic:convention:check
       shell: bash
