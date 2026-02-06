@@ -29,7 +29,7 @@ runs:
         build-scan-terms-of-use-agree: "yes"
 
     - name: Processs Watcher 
-      uses: cdsap/build-process-watcher@v0.5.0
+      uses: cdsap/build-process-watcher@fix/composite-run-id-file
       with:
          remote_monitoring: false
 
@@ -38,7 +38,7 @@ runs:
       shell: bash
 
     - name: Processs Watcher 
-      uses: cdsap/build-process-watcher@v0.5.0
+      uses: cdsap/build-process-watcher@fix/composite-run-id-file
       with:
          remote_monitoring: false
 
