@@ -34,6 +34,6 @@ runs:
          remote_monitoring: false
          debug: true
 
-    - name: Check build-logic
+    - name: Check sbuild-logic
       run: ./gradlew :build-logic:convention:check
       shell: bash
