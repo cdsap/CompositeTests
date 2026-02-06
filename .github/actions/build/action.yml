@@ -32,11 +32,6 @@ runs:
       run: ./gradlew :build-logic:convention:check
       shell: bash
 
-    - name: Processs Watcher 
-      uses: cdsap/build-process-watcher@fix/composite-run-id-file
-      with:
-         remote_monitoring: false
-
     - name: Check spotless
       run: ./gradlew spotlessCheck
       shell: bash
