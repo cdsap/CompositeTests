@@ -30,7 +30,6 @@ jobs:
         uses: cdsap/build-process-watcher@fix/composite-run-id-file
         with:
           remote_monitoring: true
-          debug: true
 
       - name: Run build action
         uses: ./.github/actions/build
