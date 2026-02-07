@@ -26,8 +26,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Processs secondWatcher 
-        uses: cdsap/build-process-watcher@fix/composite-run-id-file
+      - name: Processs Watcher 
+        uses: cdsap/build-process-watcher@v0.5.1
         with:
           remote_monitoring: true
 
