@@ -29,7 +29,7 @@ jobs:
       - name: Processs Watcher 
         uses: cdsap/build-process-watcher@v0.5.1
         with:
-          remote_monitoring: true
+          remote_monitoring: false
 
       - name: Run build action
         uses: ./.github/actions/build
